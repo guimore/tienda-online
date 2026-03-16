@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clonar repo') {
             steps {
-                git 'https://github.com/guimore/tienda-online'
+                git branch: 'main', url: 'https://github.com/guimore/tienda-online'
             }
         }
         stage('Build Docker') {
