@@ -31,3 +31,15 @@ python app.py
 docker build -t tienda-online .
 docker run -d -p 5000:5000 tienda-online
 ```
+# Tienda Online - [Estrella del Sur](https://tienvirtual.onrender.com/)
+
+> 🚀 **Demo en vivo:** [https://tienvirtual.onrender.com/](https://tienvirtual.onrender.com/)
+
+Aplicación web de ecommerce desarrollada en Python/Flask con pipeline CI/CD completo.
+
+## Stack Tecnológico
+- **Backend:** Python, Flask, SQLAlchemy
+- **Frontend:** HTML, CSS, Bootstrap
+- **Base de datos:** SQLite
+- **Contenedor:** Docker
+- **CI/CD:** Jenkins + GitHub
